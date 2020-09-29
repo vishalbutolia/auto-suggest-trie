@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="index.css">
+<script src="autocomplete.js"></script>
+<title>auto suggestion using trie</title>
+</head>
+<body>
+<!-- <form class="example" action="/action_page.php"> -->
+<h1 id="heading">Auto suggestion using Trie</h1>
+<div id="parent-container">
+	<div id="child-container">
+		<div id="div-1">
+		  <input id="text" type="text" placeholder="type lowercase text" name="search">
+		  <button id="insert-text-btn" onclick="onInsert()">Insert text</button>
+		</div>
+		<div id="div-2">
+		 	<input id="search" type="text" list="suggestion-datalist" placeholder="Search.." oninput="onType()">
+		 	<datalist id="suggestion-datalist"></datalist>
+		</div>
+	</div>
+	<div id="div-3">
+		<p id="list-heading">Values in trie</p>
+		<ul class="list" id="list"></ul>
+	</div>			
+</div>
+<script type="text/javascript">
+	
+</script>
+</body>
+</html> 
