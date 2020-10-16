@@ -73,7 +73,6 @@ function onInsert(){
   let value = document.getElementById('text').value;
   insert(head,value.trim());
   document.getElementById('text').value = '';
-  // console.log(search(head,value).isLeaf);
   var x = document.createElement('li');
   var t = document.createTextNode(value.trim());
   x.appendChild(t);

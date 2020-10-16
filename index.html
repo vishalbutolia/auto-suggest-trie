@@ -12,11 +12,11 @@
 <div id="parent-container">
 	<div id="child-container">
 		<div id="div-1">
-		  <input id="text" type="text" placeholder="type lowercase text" name="search">
+		  <input id="text" type="text" placeholder="type lowercase text" name="search" autocomplete="off">
 		  <button id="insert-text-btn" onclick="onInsert()">Insert text</button>
 		</div>
 		<div id="div-2">
-		 	<input id="search" type="text" list="suggestion-datalist" placeholder="Search.." oninput="onType()">
+		 	<input id="search" type="text" list="suggestion-datalist" autocomplete="off" placeholder="Search.." oninput="onType()">
 		 	<datalist id="suggestion-datalist"></datalist>
 		</div>
 	</div>
